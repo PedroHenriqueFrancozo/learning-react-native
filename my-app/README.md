@@ -35,3 +35,4 @@ O arquivo `package.json` é o coração de qualque projeto que utiliza **node.js
 Pacote | Versão | Descrição
 | :--- | :--- | :--- |
 expo | ~54.0.33	| O framework base que fornece acesso a APIs nativas e facilita o desenvolvimento cross-platform.
+expo-status-bar	| ~3.0.9 | Gerencia a barra de status do dispositivo (hora, bateria, notificações) de forma simples.
