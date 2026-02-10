@@ -13,3 +13,4 @@ Dentro de um folder basta digitar no terminal
 
 1. my-app / é o nome que deseja para o aplicativo
 2. -t / Expo permite escolher alguns templates para iniciar o desenvolvimento, quando não especificado o Expo utiliza o template Blank - a minimal app as clean as an empty canvas.
+3. -t / Blank (TypeScript) já vem com o projeto limpo e só com o TypeCript hábilitado
