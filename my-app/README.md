@@ -15,3 +15,4 @@ Dentro de um folder basta digitar no terminal
 2. -t / Expo permite escolher alguns templates para iniciar o desenvolvimento, quando não especificado o Expo utiliza o template Blank - a minimal app as clean as an empty canvas.
 3. -t / Blank (TypeScript) já vem com o projeto limpo e só com o TypeCript hábilitado.
 4. Assim que terminar de criar o projeto sempre tem que navegar para pasta criada  `cd my-app`
+5. Para saber se está dentro da pasta do projeto basta digitar o comando ls e o projeto precisa enchergar o package.json
