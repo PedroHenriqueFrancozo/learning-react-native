@@ -38,3 +38,7 @@ expo | ~54.0.33	| O framework base que fornece acesso a APIs nativas e facilita 
 expo-status-bar	| ~3.0.9 | Gerencia a barra de status do dispositivo (hora, bateria, notificações) de forma simples.
 react | 19.1.0 | A biblioteca principal para construção da interface baseada em componentes.
 react-native | 0.81.5 | O framework que renderiza componentes React em interfaces nativas (iOS e Android).
+
+### Dependências de Desenvolvimento
+
+- **typescript:** Adiciona tipagem estática ao JavaScript, aumentando a segurança e produtividade no desenvolvimento.
