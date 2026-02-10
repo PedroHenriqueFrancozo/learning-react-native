@@ -36,3 +36,4 @@ Pacote | Versão | Descrição
 | :--- | :--- | :--- |
 expo | ~54.0.33	| O framework base que fornece acesso a APIs nativas e facilita o desenvolvimento cross-platform.
 expo-status-bar	| ~3.0.9 | Gerencia a barra de status do dispositivo (hora, bateria, notificações) de forma simples.
+react | 19.1.0 | A biblioteca principal para construção da interface baseada em componentes.
