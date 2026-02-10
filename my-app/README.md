@@ -10,3 +10,5 @@ Utilizar Expo para visualizar a tela de seu desenvolvimento, basta executar codi
 Dentro de um folder basta digitar no terminal
 
 - `npx create-expo-app my-app -t`
+
+1. my-app / é o nome que deseja para o aplicativo
