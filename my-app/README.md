@@ -42,3 +42,4 @@ react-native | 0.81.5 | O framework que renderiza componentes React em interface
 ### Dependências de Desenvolvimento
 
 - **typescript:** Adiciona tipagem estática ao JavaScript, aumentando a segurança e produtividade no desenvolvimento.
+- **@types/react:** Definições de tipos para que o TypeScript entenda as funções e propriedades do React.
