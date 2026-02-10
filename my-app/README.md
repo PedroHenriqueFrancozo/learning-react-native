@@ -22,3 +22,11 @@ Dentro de um folder basta digitar no terminal
 Digitar o comando
 
 - `- expo start`
+
+---
+
+# Estrutura de um projeto React Native Com Expo
+
+### 🛠️ Dependências
+O arquivo `package.json` é o coração de qualque projeto que utiliza **node.js**. Nele fica todas as informações de scripts e dependências do projeto.
+
