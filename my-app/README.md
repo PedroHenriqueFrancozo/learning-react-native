@@ -30,3 +30,7 @@ Digitar o comando
 ### 🛠️ Dependências
 O arquivo `package.json` é o coração de qualque projeto que utiliza **node.js**. Nele fica todas as informações de scripts e dependências do projeto.
 
+### Dependências de Produção 
+
+Pacote | Versão | Descrição
+| :--- | :--- | :--- |
