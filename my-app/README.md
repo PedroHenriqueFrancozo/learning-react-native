@@ -84,3 +84,7 @@ No modo blank, o código se resume a:
 **Container (`View`):** Funciona como a `<div>` principal.
 **Conteúdo (`Text`):** Qualquer texto no React Native precisa estar dentro de um componente `<Text>`.
 **StatusBar:** Um componente utilitário do Expo para garantir que o texto do sistema (relógio, wifi) fique legível sobre o fundo do seu app.
+
+# ⚠️ Dicas de Boas Práticas:
+- **Não deixe o App.tsx gigante:** À medida que o app cresce, use este arquivo apenas para configurar Providers (Temas, Contextos, Autenticação) e a **Navegação**.
+- **Safe Area:** Se o texto ficar "escondido" atrás do notch (o entalhe da câmera) do iPhone, lembre-se de pesquisar sobre o `SafeAreaView`.
