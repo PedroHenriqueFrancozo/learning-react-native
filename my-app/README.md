@@ -62,3 +62,4 @@ No React Native/Expo, isso é crítico porque o ecossistema depende de muitas bi
 ### 2. Por que ele é enorme?
 O `package.json` pode ter apenas 20 linhas, mas o `package-lock.json` terá milhares. Isso acontece porque ele mapeia a **árvore de dependências completa**.
 
+- **Exemplo:** Se instalar o expo-router. O expo-router precisa de outras 10 bibliotecas, que precisam de outras 50. O lock salva todas elas.
