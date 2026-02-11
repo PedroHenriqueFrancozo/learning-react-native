@@ -56,3 +56,5 @@ Se o package.json é a lista de compras, o package-lock.json é a nota fiscal de
 
 ### 1. O que ele faz?
 Ele registra a versão exata de cada dependência (e das dependências dessas dependências) que foi instalada no momento em que rodou o `npm install`.
+
+No React Native/Expo, isso é crítico porque o ecossistema depende de muitas bibliotecas pequenas. Sem o `lock`, se reinstalar o projeto futuramente, o npm pode baixar uma versão "sub-minor" diferente de uma biblioteca qualquer que tenha um bug, quebrando seu build sem você ter mudado uma linha de código.
