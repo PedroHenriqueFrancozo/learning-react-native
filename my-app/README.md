@@ -70,3 +70,8 @@ O `package.json` pode ter apenas 20 linhas, mas o `package-lock.json` terá milh
 
 # 🚪 O Ponto de Entrada: App.tsx
 O arquivo `App.tsx` é o componente raiz da aplicação. No React Native com Expo, é aqui que tudo começa: o código que escrever aqui é o primeiro a ser renderizado na tela do dispositivo.
+
+### 1. Estrutura Básica
+Em um projeto TypeScript, encontrará três partes principais neste arquivo:
+
+- **Imports:** Onde trazemos o `StatusBar` do Expo (para controlar a barra de bateria/hora), e os componentes básicos do `react-native` (como `View` e `Text`).
