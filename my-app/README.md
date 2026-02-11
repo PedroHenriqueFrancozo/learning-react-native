@@ -50,3 +50,9 @@ react-native | 0.81.5 | O framework que renderiza componentes React em interface
 
 # 💡 Por que essas versões?
 **Nota:** As versões utilizam o prefixo tilde (`~`), o que significa que o projeto aceita atualizações de patch (correções de bugs), garantindo estabilidade e evitando mudanças quebras de código inesperadas (breaking changes).
+
+# 📦 O Arquivo: package-lock.json
+Se o package.json é a lista de compras, o package-lock.json é a nota fiscal detalhada com o número do lote, a marca exata e a hora da compra de cada item.
+
+### 1. O que ele faz?
+Ele registra a versão exata de cada dependência (e das dependências dessas dependências) que foi instalada no momento em que rodou o `npm install`.
