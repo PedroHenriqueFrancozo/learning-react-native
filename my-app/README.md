@@ -67,3 +67,6 @@ O `package.json` pode ter apenas 20 linhas, mas o `package-lock.json` terá milh
 # ⚠️ Dica:
 
 "Se o projeto começar a dar erros bizarros de dependência após uma atualização, tente deletar a pasta `node_modules` e o `package-lock.json`, e rode `npm install` novamente para gerar um estado limpo e atualizado."
+
+# 🚪 O Ponto de Entrada: App.tsx
+O arquivo `App.tsx` é o componente raiz da aplicação. No React Native com Expo, é aqui que tudo começa: o código que escrever aqui é o primeiro a ser renderizado na tela do dispositivo.
