@@ -31,7 +31,7 @@ Digitar o comando
 
 # Estrutura de um projeto React Native Com Expo
 
-### 🛠️ Dependências
+# 🛠️ Dependências
 O arquivo `package.json` é o coração de qualque projeto que utiliza **node.js**. Nele fica todas as informações de scripts e dependências do projeto.
 
 ### Dependências de Produção 
@@ -50,6 +50,8 @@ react-native | 0.81.5 | O framework que renderiza componentes React em interface
 
 # 💡 Por que essas versões?
 **Nota:** As versões utilizam o prefixo tilde (`~`), o que significa que o projeto aceita atualizações de patch (correções de bugs), garantindo estabilidade e evitando mudanças quebras de código inesperadas (breaking changes).
+
+---
 
 # 📦 O Arquivo: package-lock.json
 Se o package.json é a lista de compras, o package-lock.json é a nota fiscal detalhada com o número do lote, a marca exata e a hora da compra de cada item.
@@ -88,3 +90,10 @@ No modo blank, o código se resume a:
 # ⚠️ Dicas de Boas Práticas:
 - **Não deixe o App.tsx gigante:** À medida que o app cresce, use este arquivo apenas para configurar Providers (Temas, Contextos, Autenticação) e a **Navegação**.
 - **Safe Area:** Se o texto ficar "escondido" atrás do notch (o entalhe da câmera) do iPhone, lembre-se de pesquisar sobre o `SafeAreaView`.
+
+---
+
+# app.json
+
+O arquivo `app.json` contém as configurações globais do aplicativo.
+
