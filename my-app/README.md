@@ -77,3 +77,10 @@ Em um projeto TypeScript, encontrará três partes principais neste arquivo:
 - **Imports:** Onde trazemos o `StatusBar` do Expo (para controlar a barra de bateria/hora), e os componentes básicos do `react-native` (como `View` e `Text`).
 - **Função Principal:** O componente funcional `App`. Por padrão, ele retorna um JSX que centraliza o conteúdo na tela.
 - **Estilização (StyleSheet):** Diferente da web onde usamos CSS externo, aqui usamos o `StyleSheet.create`. É um objeto JavaScript que o React Native transforma em estilos nativos altamente performáticos.
+
+### 2. Anatomia do Código Padrão
+No modo blank, o código se resume a:
+
+**Container (`View`):** Funciona como a `<div>` principal.
+**Conteúdo (`Text`):** Qualquer texto no React Native precisa estar dentro de um componente `<Text>`.
+**StatusBar:** Um componente utilitário do Expo para garantir que o texto do sistema (relógio, wifi) fique legível sobre o fundo do seu app.
