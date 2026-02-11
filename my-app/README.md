@@ -106,3 +106,7 @@ Campo | Descrição
 `version` | Segue o versionamento semântico (ex: `1.0.0`). Deve ser atualizado a cada novo deploy para as lojas.
 `splash` | Define a imagem e a cor de fundo que aparecem enquanto o app está sendo montado na memória.
 `ios` / `android` |	Objetos onde define permissões específicas, nomes de pacotes (bundleIdentifier e package) e chaves de API.
+
+# ⚠️ Dica:
+
+Em projetos TypeScript, o `app.json` é lido pelo compilador do Expo. Se você precisar de configurações dinâmicas (como usar variáveis de ambiente), pode renomear este arquivo para `app.config.js`.
