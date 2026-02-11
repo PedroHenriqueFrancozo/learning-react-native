@@ -75,3 +75,4 @@ O arquivo `App.tsx` é o componente raiz da aplicação. No React Native com Exp
 Em um projeto TypeScript, encontrará três partes principais neste arquivo:
 
 - **Imports:** Onde trazemos o `StatusBar` do Expo (para controlar a barra de bateria/hora), e os componentes básicos do `react-native` (como `View` e `Text`).
+- **Função Principal:** O componente funcional `App`. Por padrão, ele retorna um JSX que centraliza o conteúdo na tela.
