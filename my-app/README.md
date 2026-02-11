@@ -97,3 +97,10 @@ No modo blank, o código se resume a:
 
 O arquivo `app.json` contém as configurações globais do aplicativo.
 
+### Principais Campos Explicados
+
+Campo | Descrição
+| :--- | :--- |
+`nome` | O nome amigável que o usuário verá ao instalar o app.
+`slug` | O identificador URL do seu projeto no ecossistema Expo.
+`version` | Segue o versionamento semântico (ex: `1.0.0`). Deve ser atualizado a cada novo deploy para as lojas.
