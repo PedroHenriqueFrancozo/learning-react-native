@@ -24,3 +24,9 @@ Para estilizar um componente, utilizamos a propriedade `style`. A forma como pas
 
 ### 4. Criando uma Folha de Estilos (StyleSheet)
 Para manter o código organizado e ganhar performance, utilizamos o objeto `StyleSheet`.
+
+**Passo a passo:**
+
+1. **Importação:** Primeiro, devemos importar o `StyleSheet` de dentro do `react-native`.
+2. **Definição:** Criamos uma constante (geralmente chamada de `styles`) fora da função do componente.
+3. **Atribuição:** Utilizamos o método `.create()` para definir nossos objetos de estilo.
