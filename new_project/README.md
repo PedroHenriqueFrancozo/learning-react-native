@@ -34,3 +34,9 @@ Para manter o código organizado e ganhar performance, utilizamos o objeto `Styl
 ### 5. Trabalhando com Imagens
 Para utilizar imagens no React Native, precisamos do componente Image. Existem duas formas principais de carregar imagens: locais (estáticas) e remotas (via URL).
 
+**Como importar uma imagem local:**
+
+`import Logo from './assets/logo.png';`
+
+**Como utilizar no componente:**
+O componente `Image` utiliza a propriedade `source`. Diferente do HTML (que usa `src`), no React Native passamos o nome da importação entre chaves.
