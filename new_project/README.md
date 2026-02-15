@@ -40,3 +40,8 @@ Para utilizar imagens no React Native, precisamos do componente Image. Existem d
 
 **Como utilizar no componente:**
 O componente `Image` utiliza a propriedade `source`. Diferente do HTML (que usa `src`), no React Native passamos o nome da importação entre chaves.
+
+`<Image source={Logo} style={styles.image} />`
+
+### 6. Configuração de Tipagem (TypeScript)
+Por padrão, o TypeScript não reconhece arquivos de imagem (como `.png`, `.jpg` ou `.svg`) como módulos válidos. Para resolver isso e evitar erros de compilação, devemos criar um arquivo de definição de tipos.
