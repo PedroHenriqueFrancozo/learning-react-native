@@ -7,3 +7,7 @@ Este projeto foi desenvolvido com o objetivo de aprofundar o entendimento sobre 
 
 ### 1. Imports
 No React Native, tudo é baseado em **componentes**. Por isso, precisamos importar os componentes fundamentais da biblioteca para que possamos utilizá-los na construção da interface.
+
+### 2. Funções e Componentes
+No React Native, os componentes são definidos como funções que retornam elementos visuais.
+
