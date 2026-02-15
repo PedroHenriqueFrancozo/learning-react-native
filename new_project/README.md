@@ -14,3 +14,8 @@ No React Native, os componentes são definidos como funções que retornam eleme
 **Regra:** Uma função deve retornar apenas um componente pai. Se tentar retornar dois componentes soltos (irmãos) sem um "pai" em comum, o código apresentará um erro de sintaxe.
 
 **Dica:** Para retornar múltiplos componentes sem adicionar uma nova View desnecessária à hierarquia, utilizamos o <> </> (Fragment).
+
+### 3. Estilização
+Para estilizar um componente, utilizamos a propriedade `style`. A forma como passamos os valores depende de onde o estilo foi definido:
+
+- **Estilização Interna (Inline Style):** Utilizamos dois pares de chaves {{ }}. O primeiro par indica que estamos inserindo código JavaScript no JSX, e o segundo par define o objeto de estilo propriamente dito.
