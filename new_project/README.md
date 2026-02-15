@@ -60,3 +60,8 @@ O `.d.ts` indica que este é um arquivo de definição de tipos, servindo apenas
 
 ### 7. Adicionando Lógica ao Componente
 Para criar componentes dinâmicos, utilizamos variáveis de lógica. Um exemplo comum é controlar o estado de "ligado/desligado" ou "ativo/inativo" para alterar o que é exibido na tela.
+
+**Utilizando Operador Ternário**
+
+O operador ternário é uma forma compacta de escrever um `if/else` dentro do JSX. Ele segue a estrutura:
+`condição ? valor_se_verdadeiro : valor_se_falso`
