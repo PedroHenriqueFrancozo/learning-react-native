@@ -22,3 +22,5 @@ Para estilizar um componente, utilizamos a propriedade `style`. A forma como pas
 
 - **Estilização Externa (StyleSheet):** Utilizamos apenas um par de chaves `{ }` para passar a referência da variável que contém os estilos (geralmente criada com `StyleSheet.create`).
 
+### 4. Criando uma Folha de Estilos (StyleSheet)
+Para manter o código organizado e ganhar performance, utilizamos o objeto `StyleSheet`.
