@@ -18,4 +18,6 @@ No React Native, os componentes são definidos como funções que retornam eleme
 ### 3. Estilização
 Para estilizar um componente, utilizamos a propriedade `style`. A forma como passamos os valores depende de onde o estilo foi definido:
 
-- **Estilização Interna (Inline Style):** Utilizamos dois pares de chaves {{ }}. O primeiro par indica que estamos inserindo código JavaScript no JSX, e o segundo par define o objeto de estilo propriamente dito.
+- **Estilização Interna (Inline Style):** Utilizamos dois pares de chaves `{{ }}`. O primeiro par indica que estamos inserindo código JavaScript no JSX, e o segundo par define o objeto de estilo propriamente dito.
+
+- **Estilização Externa (StyleSheet):** Utilizamos apenas um par de chaves `{ }` para passar a referência da variável que contém os estilos (geralmente criada com `StyleSheet.create`).
