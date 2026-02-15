@@ -5,16 +5,22 @@ import symbolOff from './assets/pictures/symbol-off.png';
 export default function App() {
   const isActive = true;
   return (
-    <View style={styles.container}>
+    <View style={isActive ? styles.containerOn : styles.containerOff}>
       <Image source={isActive ? symbolOn : symbolOff}></Image>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  containerOn: {
     flex: 1,
     backgroundColor: '#000',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  containerOff: {
+    flex: 1,
+    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
