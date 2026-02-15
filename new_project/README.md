@@ -2,4 +2,6 @@
 ![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=D04A37)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
-# Iniciando Projeto
+# Iniciando o Projeto
+Este projeto foi desenvolvido com o objetivo de aprofundar o entendimento sobre o funcionamento do framework e sua estrutura.
+
