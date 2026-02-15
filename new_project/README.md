@@ -11,3 +11,6 @@ No React Native, tudo é baseado em **componentes**. Por isso, precisamos import
 ### 2. Funções e Componentes
 No React Native, os componentes são definidos como funções que retornam elementos visuais.
 
+**Regra:** Uma função deve retornar apenas um componente pai. Se tentar retornar dois componentes soltos (irmãos) sem um "pai" em comum, o código apresentará um erro de sintaxe.
+
+**Dica:** Para retornar múltiplos componentes sem adicionar uma nova View desnecessária à hierarquia, utilizamos o <> </> (Fragment).
