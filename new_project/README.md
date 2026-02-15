@@ -55,3 +55,5 @@ Por padrão, o TypeScript não reconhece arquivos de imagem (como `.png`, `.jpg`
 `declare module '*.jpg';`
 `declare module '*.jpeg';`
 `declare module '*.svg';`
+
+O `.d.ts` indica que este é um arquivo de definição de tipos, servindo apenas para o compilador do TypeScript entender o que aqueles arquivos representam.
