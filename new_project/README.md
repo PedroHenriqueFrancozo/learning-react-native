@@ -30,3 +30,7 @@ Para manter o código organizado e ganhar performance, utilizamos o objeto `Styl
 1. **Importação:** Primeiro, devemos importar o `StyleSheet` de dentro do `react-native`.
 2. **Definição:** Criamos uma constante (geralmente chamada de `styles`) fora da função do componente.
 3. **Atribuição:** Utilizamos o método `.create()` para definir nossos objetos de estilo.
+
+### 5. Trabalhando com Imagens
+Para utilizar imagens no React Native, precisamos do componente Image. Existem duas formas principais de carregar imagens: locais (estáticas) e remotas (via URL).
+
