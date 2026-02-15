@@ -5,3 +5,5 @@
 # Iniciando o Projeto
 Este projeto foi desenvolvido com o objetivo de aprofundar o entendimento sobre o funcionamento do framework e sua estrutura.
 
+### 1. Imports
+No React Native, tudo é baseado em **componentes**. Por isso, precisamos importar os componentes fundamentais da biblioteca para que possamos utilizá-los na construção da interface.
