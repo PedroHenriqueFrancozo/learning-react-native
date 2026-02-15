@@ -58,4 +58,5 @@ Por padrão, o TypeScript não reconhece arquivos de imagem (como `.png`, `.jpg`
 
 O `.d.ts` indica que este é um arquivo de definição de tipos, servindo apenas para o compilador do TypeScript entender o que aqueles arquivos representam.
 
-### Adicionando Lógica no componente
+### 7. Adicionando Lógica ao Componente
+Para criar componentes dinâmicos, utilizamos variáveis de lógica. Um exemplo comum é controlar o estado de "ligado/desligado" ou "ativo/inativo" para alterar o que é exibido na tela.
