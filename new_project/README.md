@@ -45,3 +45,13 @@ O componente `Image` utiliza a propriedade `source`. Diferente do HTML (que usa 
 
 ### 6. Configuração de Tipagem (TypeScript)
 Por padrão, o TypeScript não reconhece arquivos de imagem (como `.png`, `.jpg` ou `.svg`) como módulos válidos. Para resolver isso e evitar erros de compilação, devemos criar um arquivo de definição de tipos.
+
+**Passos:**
+
+1. Crie um arquivo chamado `index.d.ts` (ou `declarations.d.ts`) na raiz ou na pasta `@types`.
+2. Adicione a declaração de módulo para cada extensão que você pretende usar:
+
+`declare module '*.png';`
+`declare module '*.jpg';`
+`declare module '*.jpeg';`
+`declare module '*.svg';`
