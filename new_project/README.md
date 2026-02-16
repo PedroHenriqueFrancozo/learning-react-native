@@ -69,5 +69,6 @@ O operador ternário é uma forma compacta de escrever um `if/else` dentro do JS
 ### 🖱️ Criando uma área sensível ao toque com `TouchableOpacity`
 Para criar uma área clicável, primeiro devemos importar o componente `TouchableOpacity` do pacote `react-native`.
 
-
+**Como utilizar:**
+Ele funciona como um "wrapper", ou seja, deve envolver os **elementos** que deseja tornar clicáveis (como textos ou imagens) dentro das tags do componente.
 
