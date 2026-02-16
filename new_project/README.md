@@ -31,7 +31,7 @@ Para manter o código organizado e ganhar performance, utilizamos o objeto `Styl
 2. **Definição:** Criamos uma constante (geralmente chamada de `styles`) fora da função do componente.
 3. **Atribuição:** Utilizamos o método `.create()` para definir nossos objetos de estilo.
 
-### 5. Trabalhando com Imagens
+### 5. 🖼️ Trabalhando com Imagens
 Para utilizar imagens no React Native, precisamos do componente Image. Existem duas formas principais de carregar imagens: locais (estáticas) e remotas (via URL).
 
 **Como importar uma imagem local:**
@@ -43,7 +43,7 @@ O componente `Image` utiliza a propriedade `source`. Diferente do HTML (que usa 
 
 `<Image source={Logo} style={styles.image} />`
 
-### 6. Configuração de Tipagem (TypeScript)
+### 6. 🛠️ Configuração de Tipagem (TypeScript)
 Por padrão, o TypeScript não reconhece arquivos de imagem (como `.png`, `.jpg` ou `.svg`) como módulos válidos. Para resolver isso e evitar erros de compilação, devemos criar um arquivo de definição de tipos.
 
 **Passos:**
@@ -58,7 +58,7 @@ Por padrão, o TypeScript não reconhece arquivos de imagem (como `.png`, `.jpg`
 
 O `.d.ts` indica que este é um arquivo de definição de tipos, servindo apenas para o compilador do TypeScript entender o que aqueles arquivos representam.
 
-### 7. Adicionando Lógica ao Componente
+### 7. ⚙️ Adicionando Lógica ao Componente
 Para criar componentes dinâmicos, utilizamos variáveis de lógica. Um exemplo comum é controlar o estado de "ligado/desligado" ou "ativo/inativo" para alterar o que é exibido na tela.
 
 **Utilizando Operador Ternário**
