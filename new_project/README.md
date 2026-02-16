@@ -65,3 +65,9 @@ Para criar componentes dinâmicos, utilizamos variáveis de lógica. Um exemplo 
 
 O operador ternário é uma forma compacta de escrever um `if/else` dentro do JSX. Ele segue a estrutura:
 `condição ? valor_se_verdadeiro : valor_se_falso`
+
+### 🖱️ Criando uma área sensível ao toque com `TouchableOpacity`
+Para criar uma área clicável, primeiro devemos importar o componente `TouchableOpacity` do pacote `react-native`.
+
+
+
