@@ -18,3 +18,4 @@ No React Native, a interface é construída através de componentes. Um componen
     1. Importar o React.
     2. Importar os elementos do `react-native` (View, Text, etc).
     3. Ter uma função de exportação (`export default`).
+    4. Retornar um JSX (conteúdo visual).
