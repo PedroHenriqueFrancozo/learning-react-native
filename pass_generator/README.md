@@ -21,16 +21,21 @@ No React Native, a interface é construída através de componentes. Um componen
     4. Retornar um JSX (conteúdo visual).
 
 ### 3. Anatomia de um Componente
-```tsx
-import React from 'react';
-import { View, Text } from 'react-native';
+````tsx`
+`import React from 'react';`
+`import { View, Text } from 'react-native';`
 
-const MinhaScreen = () => {
-  return (
-    <View>
-      <Text>Olá, React Native!</Text>
-    </View>
-  );
-};
+`const MinhaScreen = () => {`
+  `return (`
+    `<View>`
+      `<Text>Olá, React Native!</Text>`
+    `</View>`
+  `);`
+`};`
 
-export default MinhaScreen;
+`export default MinhaScreen;`
+
+---
+
+# 🔄 Renderização e Fragments
+Como exibir um componente?
