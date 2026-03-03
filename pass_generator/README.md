@@ -39,3 +39,4 @@ No React Native, a interface é construída através de componentes. Um componen
 
 # 🔄 Renderização e Fragments
 Como exibir um componente?
+Para que um componente apareça na tela, ele deve ser importado e chamado dentro do `App.tsx` (ou dentro de outro componente pai) utilizando a sintaxe de tag: `<MinhaScreen />`.
