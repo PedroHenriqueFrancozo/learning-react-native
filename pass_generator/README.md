@@ -14,3 +14,5 @@ No React Native, a interface é construída através de componentes. Um componen
 
 ### 2. Regras de Ouro (Boas Práticas)
 1. **Nomenclatura:** Todo componente deve começar com **Letra Maiúscula** (PascalCase). Ex: `MinhaTela.tsx`.
+2. **Estrutura Mínima:** Todo arquivo de componente precisa:
+    1. Importar o React.
