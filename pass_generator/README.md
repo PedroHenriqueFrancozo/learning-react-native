@@ -11,3 +11,5 @@ Para manter o projeto escalável e organizado, segui a padronização de pastas 
 
 ### 1. Tudo é um Componente
 No React Native, a interface é construída através de componentes. Um componente é, essencialmente, uma função que retorna algo para ser renderizado na tela.
+
+### 2. Regras de Ouro (Boas Práticas)
