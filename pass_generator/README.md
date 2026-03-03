@@ -4,3 +4,7 @@ Para manter o projeto escalável e organizado, segui a padronização de pastas 
 1. **`src/`**: Pasta principal que centraliza o código da aplicação.
 2. **`src/components/`**: Destinada a componentes reutilizáveis (botões, cards, inputs).
 3. **`src/screens/`**: Destinada às telas completas da aplicação.
+
+---
+
+## 💡 Conceitos Fundamentais
