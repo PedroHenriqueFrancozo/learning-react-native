@@ -42,4 +42,4 @@ Como exibir um componente?
 Para que um componente apareça na tela, ele deve ser importado e chamado dentro do `App.tsx` (ou dentro de outro componente pai) utilizando a sintaxe de tag: `<MinhaScreen />`.
 `
 ### O uso de Fragments `<> </>`
-Uma função em React só pode retornar um único elemento pai. Caso precise retornar vários elementos sem adicionar uma `View` extra (que pode bagunçar o layout ou o peso do DOM), utilizamos o **Fragment**:
+Uma função em React só pode retornar um único elemento pai. Caso precise retornar vários elementos sem adicionar uma `View` extra (que pode bagunçar o layout ou o peso do DOM), utiliza o **Fragment**:
