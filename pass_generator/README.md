@@ -53,3 +53,6 @@ Uma função em React só pode retornar um único elemento pai. Caso precise ret
 
 # 🛠️ Refatoração: Separação de Responsabilidades (Clean Code)
 Hoje o projeto avançou para uma estrutura mais profissional, focando em organização e produtividade.
+
+### 📁 Estrutura por Pasta de Componente
+Para evitar que o projeto vire uma "bagunça" de arquivos soltos, adotei a estratégia de **uma pasta por componente**.
