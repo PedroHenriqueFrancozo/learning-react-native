@@ -70,3 +70,4 @@ Para manter o código limpo, os estilos foram movidos para um arquivo dedicado (
 ## 🚀 Produtividade e Ferramentas
 
 ### Extensão: React Components Snippets
+Para agilizar o desenvolvimento, instalei extensões de **Snippets**. Com poucos comandos, a estrutura base do componente é gerada automaticamente, evitando repetição de código manual (boilerplate).
