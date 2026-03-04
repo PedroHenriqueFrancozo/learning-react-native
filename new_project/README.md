@@ -66,9 +66,32 @@ Para criar componentes dinâmicos, utilizamos variáveis de lógica. Um exemplo 
 O operador ternário é uma forma compacta de escrever um `if/else` dentro do JSX. Ele segue a estrutura:
 `condição ? valor_se_verdadeiro : valor_se_falso`
 
-### 🖱️ Criando uma área sensível ao toque com `TouchableOpacity`
+### 8. 🖱️ Criando uma área sensível ao toque com `TouchableOpacity`
 Para criar uma área clicável, primeiro devemos importar o componente `TouchableOpacity` do pacote `react-native`.
 
 **Como utilizar:**
 Ele funciona como um "wrapper", ou seja, deve envolver os **elementos** que deseja tornar clicáveis (como textos ou imagens) dentro das tags do componente.
 
+### UseState Hooks
+
+Hooks permitem que use o state e outros recursos do React sem escrever uma classe.
+
+Para usar deve importar React para conseguir usar
+`import React, { useState } from 'react';`
+
+O react só altera a tela quando há uma mudança de estado e não só apenas de variável
+
+# ⚓ UseState Hook
+O useState é um Hook que permite a criação e manipulação de estados em componentes funcionais, dispensando a necessidade de usar classes.
+
+# 🛠️ Como utilizar
+Para utilizá-lo, é necessário importar o useState do pacote principal do React:
+
+import React, { useState } from 'react';
+
+# 🔄 Estado vs. Variável Comum
+Diferente de uma variável comum, o React não monitora mudanças em variáveis normais para fins de renderização.
+
+Variável: O valor muda, mas a interface (UI) continua igual.
+
+Estado: Quando o valor de um estado é alterado através de sua função disparadora, o React identifica a mudança e re-renderiza o componente na tela.
