@@ -58,7 +58,5 @@ Hoje o projeto avançou para uma estrutura mais profissional, focando em organiz
 Para evitar que o projeto vire uma "bagunça" de arquivos soltos, adotei a estratégia de **uma pasta por componente**.
 - **Exemplo:** Dentro de `src/screens/Home/`, temos todos os arquivos específicos dessa tela.
 
-### 📄 O Poder do `index.tsx`
-Ao renomear o arquivo principal do componente para `index.tsx` dentro da pasta, consegui realizar importações mais limpas.
-- **Como era:** `import { Home } from './src/screens/Home/Home';`
-- **Como ficou:** `import { Home } from './src/screens/Home';` (O React busca o index automaticamente).
+### 🎨 Separação de Estilos (Styles)
+Para manter o código limpo, os estilos foram movidos para um arquivo dedicado (`styles.tsx`).
