@@ -60,3 +60,5 @@ Para evitar que o projeto vire uma "bagunça" de arquivos soltos, adotei a estra
 
 ### 📄 O Poder do `index.tsx`
 Ao renomear o arquivo principal do componente para `index.tsx` dentro da pasta, consegui realizar importações mais limpas.
+- **Como era:** `import { Home } from './src/screens/Home/Home';`
+- **Como ficou:** `import { Home } from './src/screens/Home';` (O React busca o index automaticamente).
