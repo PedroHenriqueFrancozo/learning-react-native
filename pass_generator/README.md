@@ -57,3 +57,6 @@ Hoje o projeto avançou para uma estrutura mais profissional, focando em organiz
 ### 📁 Estrutura por Pasta de Componente
 Para evitar que o projeto vire uma "bagunça" de arquivos soltos, adotei a estratégia de **uma pasta por componente**.
 - **Exemplo:** Dentro de `src/screens/Home/`, temos todos os arquivos específicos dessa tela.
+
+### 📄 O Poder do `index.tsx`
+Ao renomear o arquivo principal do componente para `index.tsx` dentro da pasta, consegui realizar importações mais limpas.
