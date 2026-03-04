@@ -29,6 +29,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  
   containerOff: {
     flex: 1,
     backgroundColor: '#fff',
