@@ -52,3 +52,4 @@ Uma função em React só pode retornar um único elemento pai. Caso precise ret
 `);`
 
 # 🛠️ Refatoração: Separação de Responsabilidades (Clean Code)
+Hoje o projeto avançou para uma estrutura mais profissional, focando em organização e produtividade.
