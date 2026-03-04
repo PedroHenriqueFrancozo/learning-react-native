@@ -60,3 +60,6 @@ Para evitar que o projeto vire uma "bagunça" de arquivos soltos, adotei a estra
 
 ### 🎨 Separação de Estilos (Styles)
 Para manter o código limpo, os estilos foram movidos para um arquivo dedicado (`styles.tsx`).
+
+1. Crei o estilo no arquivo `styles.tsx`.
+2. Utilei o `export const` nos objetos de estilo.
