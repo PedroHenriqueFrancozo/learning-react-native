@@ -51,4 +51,4 @@ Uma função em React só pode retornar um único elemento pai. Caso precise ret
   `</>`
 `);`
 
-O Fragment funciona como uma "div invisível", agrupando os elementos sem criar um nó adicional na árvore de renderização.
+# 🛠️ Refatoração: Separação de Responsabilidades (Clean Code)
